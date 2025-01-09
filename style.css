@@ -587,8 +587,8 @@ img.code-vector {
     padding: 0 20px;
   }
   div.vector > img {
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 330px;
   }
   div.price {
     display: none;
@@ -605,11 +605,24 @@ img.code-vector {
     bottom: 0;
     z-index: 1000;
     background-color: #fff;
-    padding: 0 30px;
+    padding: 10px 30px;
   }
   div.prices {
     width: 40%;
+    height: 90%;
     margin-top: 0;
+  }
+  .last-price > .price-w {
+    font-size: 16px;
+  }
+  .last-price > .price-n {
+    font-size: 16px;
+  }
+  .new-price > .price-w {
+    font-size: 16px;
+  }
+  .new-price > .price-n {
+    font-size: 16px;
   }
   img.code-vector {
     display: none;
@@ -621,7 +634,7 @@ img.code-vector {
     height: 80px;
   }
 }
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 915px) {
   div.hero-section {
     justify-content: center;
     align-items: center;
@@ -632,11 +645,11 @@ img.code-vector {
   }
   .hero-section > .titles > h1 {
     text-align: center;
-    font-size: 28px;
+    font-size: 38px;
   }
   .hero-section > .titles > p {
     text-align: center;
-    font-size: 15px;
+    font-size: 24px;
   }
   div.pre-sign {
     display: none;
@@ -647,8 +660,8 @@ img.code-vector {
     text-align: center;
   }
   div.vector > img {
-    width: 260px;
-    height: 260px;
+    width: 300px;
+    height: 300px;
   }
   div.pre-sign-m {
     display: block;
@@ -671,7 +684,7 @@ img.code-vector {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    height: 55px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
@@ -679,7 +692,24 @@ img.code-vector {
     bottom: 0;
     z-index: 1000;
     background-color: #fff;
-    padding: 0 30px;
+    padding: 10px 30px;
+  }
+  div.prices {
+    width: 40%;
+    height: 90%;
+    margin-top: 0;
+  }
+  .last-price > .price-w {
+    font-size: 16px;
+  }
+  .last-price > .price-n {
+    font-size: 16px;
+  }
+  .new-price > .price-w {
+    font-size: 16px;
+  }
+  .new-price > .price-n {
+    font-size: 16px;
   }
   div.Milad-Azami {
     flex-flow: column wrap;
@@ -707,23 +737,23 @@ img.code-vector {
   }
   .HTML {
     top: 5% !important;
-    right: 70% !important;
+    right: 85% !important;
   }
   .JS {
     top: 27% !important;
-    right: 82% !important;
+    right: 91% !important;
   }
   .git {
     top: 47% !important;
-    right: 70% !important;
+    right: 84% !important;
   }
   .React {
     top: 70% !important;
-    right: 82% !important;
+    right: 91% !important;
   }
   .Next {
     top: 90% !important;
-    right: 70% !important;
+    right: 85% !important;
   }
   div.next,
   div.react,
@@ -734,11 +764,104 @@ img.code-vector {
   }
   div.next {
     top: 87% !important;
+    right: 50% !important;
+  }
+  div.react {
+    top: 68% !important;
+    right: 55% !important;
+  }
+  div.git {
+    top: 45% !important;
+    right: 47% !important;
+  }
+  div.js {
+    top: 25% !important;
+    right: 55% !important;
+  }
+  div.html {
+    top: 2% !important;
+    right: 50% !important;
+  }
+}
+@media screen and (max-width: 840px) {
+  .HTML {
+    top: 5% !important;
+    right: 80% !important;
+  }
+  .JS {
+    top: 27% !important;
+    right: 89% !important;
+  }
+  .git {
+    top: 47% !important;
+    right: 80% !important;
+  }
+  .React {
+    top: 70% !important;
+    right: 89% !important;
+  }
+  .Next {
+    top: 90% !important;
+    right: 80% !important;
+  }
+  div.next {
+    top: 87% !important;
+    right: 42% !important;
+  }
+  div.react {
+    top: 68% !important;
+    right: 50% !important;
+  }
+  div.git {
+    top: 45% !important;
+    right: 42% !important;
+  }
+  div.js {
+    top: 25% !important;
+    right: 50% !important;
+  }
+  div.html {
+    top: 2% !important;
+    right: 42% !important;
+  }
+}
+@media screen and (max-width: 690px) {
+  .git {
+    top: 47% !important;
+    right: 78% !important;
+  }
+  div.git {
+    right: 38% !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .HTML {
+    top: 5% !important;
+    right: 73% !important;
+  }
+  .JS {
+    top: 27% !important;
+    right: 85% !important;
+  }
+  .git {
+    top: 47% !important;
+    right: 74% !important;
+  }
+  .React {
+    top: 70% !important;
+    right: 85% !important;
+  }
+  .Next {
+    top: 90% !important;
+    right: 73% !important;
+  }
+  div.next {
+    top: 87% !important;
     right: 35% !important;
   }
   div.react {
     top: 68% !important;
-    right: 46% !important;
+    right: 45% !important;
   }
   div.git {
     top: 45% !important;
@@ -746,7 +869,7 @@ img.code-vector {
   }
   div.js {
     top: 25% !important;
-    right: 46% !important;
+    right: 45% !important;
   }
   div.html {
     top: 2% !important;
@@ -921,7 +1044,7 @@ img.code-vector {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    height: 55px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
@@ -933,6 +1056,7 @@ img.code-vector {
   }
   div.prices {
     width: 60%;
+    height: 90%;
     margin-top: 0;
   }
   div.price div.sign {
@@ -977,5 +1101,118 @@ img.code-vector {
   }
   .swiper-pagination-bullet {
     background-color: #6308fd !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .git {
+    top: 47% !important;
+    right: 71% !important;
+  }
+  div.git {
+    right: 32% !important;
+  }
+}
+@media screen and (max-width: 490px) {
+  .HTML {
+    top: 5% !important;
+    right: 64% !important;
+  }
+  .JS {
+    top: 27% !important;
+    right: 80% !important;
+  }
+  .git {
+    top: 47% !important;
+    right: 64% !important;
+  }
+  .React {
+    top: 70% !important;
+    right: 80% !important;
+  }
+  .Next {
+    top: 90% !important;
+    right: 64% !important;
+  }
+  div.next {
+    top: 87% !important;
+    right: 20% !important;
+  }
+  div.react {
+    top: 68% !important;
+    right: 38% !important;
+  }
+  div.git {
+    top: 45% !important;
+    right: 25% !important;
+  }
+  div.js {
+    top: 25% !important;
+    right: 38% !important;
+  }
+  div.html {
+    top: 2% !important;
+    right: 20% !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .Milad-photo img.arrow {
+    width: 300px;
+    height: 330px;
+  }
+  div.price-m {
+    padding: 10px;
+  }
+  div.bootcamp-plan {
+    padding: 20px;
+  }
+  .title-plan > h1 {
+    font-size: 20px;
+  }
+  .HTML {
+    top: 5% !important;
+    right: 55% !important;
+  }
+  .JS {
+    top: 27% !important;
+    right: 76% !important;
+  }
+  .git {
+    top: 47% !important;
+    right: 56% !important;
+  }
+  .React {
+    top: 70% !important;
+    right: 76% !important;
+  }
+  .Next {
+    top: 90% !important;
+    right: 55% !important;
+  }
+  div.next,
+  div.react,
+  div.git,
+  div.js,
+  div.html {
+    width: 50% !important;
+  }
+  div.next {
+    top: 87% !important;
+    right: 0% !important;
+  }
+  div.react {
+    top: 68% !important;
+    right: 18% !important;
+  }
+  div.git {
+    top: 45% !important;
+    right: 0% !important;
+  }
+  div.js {
+    top: 25% !important;
+    right: 18% !important;
+  }
+  div.html {
+    top: 2% !important;
+    right: 0% !important;
   }
 }
