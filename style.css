@@ -1031,7 +1031,7 @@ img.code-vector {
     font-size: 14px;
   }
   p.answers {
-    font-size: 14px;
+    font-size: 12px;
     margin: 20px 30px 5px 20px;
   }
   img.question-vector {
@@ -1044,7 +1044,7 @@ img.code-vector {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    height: 60px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
@@ -1132,6 +1132,13 @@ img.code-vector {
   .Next {
     top: 90% !important;
     right: 64% !important;
+  }
+  div.next,
+  div.react,
+  div.git,
+  div.js,
+  div.html {
+    width: 40% !important;
   }
   div.next {
     top: 87% !important;
