@@ -597,7 +597,7 @@ img.code-vector {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    height: 70px;
+    height: 90px;
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
@@ -684,7 +684,7 @@ img.code-vector {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    height: 70px;
+    height: 90px;
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
@@ -1031,7 +1031,7 @@ img.code-vector {
     font-size: 14px;
   }
   p.answers {
-    font-size: 12px;
+    font-size: 12px ;
     margin: 20px 30px 5px 20px;
   }
   img.question-vector {
@@ -1044,7 +1044,7 @@ img.code-vector {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    height: 70px;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
@@ -1052,7 +1052,7 @@ img.code-vector {
     bottom: 0;
     z-index: 1000;
     background-color: #fff;
-    padding: 0 30px;
+    padding: 10px 30px;
   }
   div.prices {
     width: 60%;
